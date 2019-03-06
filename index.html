@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="wrapper nav-wrapper">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-leaf"></i>
+                    Car shop
+                </a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section id="about" data-aos="fade-down">
+        <div class="wrapper about-wrapper">
+            <h1 class="about-title">
+                Discover cars
+            </h1>
+            <p class="about-text">
+                Here you can find such a cool car as lamborgini,bugati,bmw and a lot of else.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row projects-row align-items-center">
+                    <div class="col-12 col-lg-8 projects-photo" data-aos="fade-right"></div>
+                    <div class="col-12 col-lg-4 projects-content">
+                        <h1 class="projects-content-title">
+                           Bugati
+                        </h1>
+                        <p class="projects-content-text">
+                            Bugati is one of the fastteset and most impressive cars.Especially popular in France,Germany and Ukraine
+                        </p>
+                    </div>
+                </div>
+                <div class="row projects-row align-items-center">
+                    <div class="col-12 col-lg-6 projects-photo"></div>
+                    <div class="col-12 col-lg-6 projects-content" data-aos="fade-left">
+                        <h1 class="projects-content-title">
+                            Lamborgini
+                        </h1>
+                        <p class="projects-content-text">The Lamborghini 350 GT was a grand tourer manufactured by Lamborghini between 1964 and 1966. It was the first production vehicle produced by Lamborghini.[1] The 350 GT was based on the earlier Lamborghini 350 GTV and was equipped with a 3.5 liter V12 engine and a 2-door coup? body by Carrozzeria Touring. 
+                        </p>
+                    </div>
+                </div>
+                <div class="row projects-row align-items-center">
+                    <div class="col-12 col-lg-6 projects-content" data-aos="fade-left">
+                        <h1 class="projects-content-title">
+                            BMW
+                        </h1>
+                        <p class="projects-content-text">
+                            The BMW M3 is a high-performance version of the 3 Series, developed by BMW's in-house motorsport division, BMW M GmbH. M3 models have been derived from the corresponding generations of the BMW 3 Series.
+
+The initial model was available in a coup? body style. At times the M3 has also been available in saloon and convertible body styles.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-6 projects-photo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <i class="far fa-paper-plane contacts-logo"></i>
+                </div>
+                <div class="row justify-content-center">
+                    <h1 class="contacts-title">Subscribe to receive updates!</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <form class="contacts-form">
+                        <div class="form-row justify-content-center align-items-center">
+                          <div class="col-8 col-md-6">
+                            <label class="sr-only" for="inlineFormInput">Name</label>
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Email...">
+                          </div>                          
+                          <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+            </div>            
+        </div>
+        <div class="wrapper contacts-cards-wrapper">
+            <div class="container">
+                <div class="row justify-content-md-around justify-content-center">
+                    <div class="col-10 col-md-3 contacts-card">
+                        <i class="fas fa-map-marked contacts-card-icon"></i>
+                        <h4 class="contacts-card-title">Address</h2>
+                        <div class="contacts-card-separator"></div>
+                        <p class="contacts-card-text">From Novoyavorivsk</p>
+                    </div>
+                    <div class="col-10 col-md-3 contacts-card">
+                        <i class="fas fa-envelope contacts-card-icon"></i>
+                        <h4 class="contacts-card-title">Email</h2>
+                        <div class="contacts-card-separator"></div>
+                        <p class="contacts-card-text">Novoyavorovsk@gmail.com</p>
+                    </div>
+                    <div class="col-10 col-md-3 contacts-card">
+                        <i class="fas fa-mobile contacts-card-icon"></i>
+                        <h4 class="contacts-card-title">Phone</h2>
+                        <div class="contacts-card-separator"></div>
+                        <p class="contacts-card-text">+38 (099) 999 9999</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <p class="footer-text">
+                Copyright © Created By Nazar Sykhomlun
+            </p>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
